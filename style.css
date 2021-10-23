@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(176, 124, 247);
+}
+
+h1{
+    padding-top: 40px;
+    font-size: 400%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog p{
+    max-width: 500px;
+    margin: 20px auto 30px ;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    opacity: 70%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.block1, .block2, .block3{
+    position: relative;
+    color: #fff;
+
+}
+
+.block1 p, .block2 p, .block3 p{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    width: 100%;
+    max-width: 300px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.block1 span, .block2 span, .block3 span{
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.block1 strong, .block2 strong, .block3 strong{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    max-width: 30px;
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+.block1 strong, .block2 strong, .block3 strong{
+    background-image: linear-gradient(to top, black 0%, transparent 100%);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.block1 img, .block2 img, .block3 img{
+    background-image: linear-gradient(to top, black 0%, transparent 50%), url(src/img1.png);
+    background-size: cover;
+    background-blend-mode: screen;
+    background-position: bottom;
+    
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.button{
+    display: block;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+    background: red;
+    transition: 0.2s;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
